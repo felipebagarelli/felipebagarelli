@@ -2,7 +2,7 @@
 
 Estudante de Análise e Desenvolvimento de Sistemas na FATEC São José do Rio Preto, com foco atual em desenvolvimento backend com Java e Spring Boot.
 
-Comecei a estudar programação em março de 2026, inicialmente de forma autodidata, e desde então venho construindo minha base em Java através de cursos, documentação e projetos práticos.
+Comecei a estudar programação em março de 2026, inicialmente de forma autodidata, e desde então venho construindo minha base em Java através de cursos, documentação e projetos práticos, estou começando meus estudos na FATEC em Agosto de 2026.
 
 Java foi minha primeira linguagem de programação. Tenho buscado entender os fundamentos e o funcionamento dos conceitos que utilizo, em vez de apenas aprender a reproduzir código.
 
