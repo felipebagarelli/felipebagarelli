@@ -1,92 +1,61 @@
 # Felipe Bagarelli
 
-Estudante de Análise e Desenvolvimento de Sistemas na FATEC São José do Rio Preto, atualmente com foco em desenvolvimento Backend Java e iniciando minha evolução para desenvolvimento Full Stack.
+Estudante de Análise e Desenvolvimento de Sistemas na FATEC São José do Rio Preto, com foco em desenvolvimento **Backend Java** e evolução para **Full Stack**.
 
-Comecei a estudar programação em março de 2026, inicialmente de forma autodidata, e desde então venho construindo minha base em Java, Spring Boot e desenvolvimento de APIs REST através de cursos, documentação e projetos práticos. Em agosto de 2026, iniciei minha graduação em Análise e Desenvolvimento de Sistemas na FATEC.
 
-Java foi minha primeira linguagem de programação. Desde o início dos estudos, tenho buscado entender os fundamentos e o funcionamento dos conceitos que utilizo, em vez de apenas aprender a reproduzir código.
+Comecei a estudar programação em janeiro de 2026, inicialmente de forma autodidata, e desde então venho construindo minha base em Java, Spring Boot e desenvolvimento de APIs REST através de cursos, documentação e projetos práticos. Em julho de 2026 iniciei a graduação em Análise e Desenvolvimento de Sistemas na FATEC.
 
-Atualmente estou aprofundando meus conhecimentos em Java e Spring Boot e, paralelamente, iniciando meus estudos em desenvolvimento frontend com JavaScript, TypeScript e React.
+Java foi minha primeira linguagem de programação. Desde o início dos estudos procuro entender os fundamentos e o funcionamento dos conceitos que utilizo, em vez de apenas reproduzir código.
 
-## Tecnologias e conhecimentos
+---
 
-### Linguagens
+## Tecnologias
 
-- Java
-- JavaScript
-- TypeScript
+**Backend**
+Java · Spring Boot · Spring Web · Spring Data JPA · Hibernate · APIs REST · PostgreSQL · Maven
 
-### Backend
+**Frontend**
+React · TypeScript · JavaScript · Vite · HTML · CSS
 
-- Spring Boot
-- Spring Web
-- Spring Data JPA
-- Hibernate
-- APIs REST
-- DTOs
-- PostgreSQL
-- Maven
-- Lombok
+**Fundamentos e ferramentas**
+Programação Orientada a Objetos · Collections · Streams e Lambdas · Generics · Tratamento de exceções · Arquitetura em camadas · Injeção de dependências · Git e GitHub
 
-### Frontend
-
-- React
-- TypeScript
-- JavaScript
-- HTML
-- CSS
-- Vite
-
-### Fundamentos
-
-- Programação Orientada a Objetos
-- Collections
-- Streams e Lambdas
-- Generics
-- Tratamento de exceções
-- Arquitetura em camadas
-- Injeção de dependências
-- CRUD
-- Programação assíncrona
-- Promises
-- Git e GitHub
+---
 
 ## Projetos
 
-### Gym Manager
+### [Gym Manager](https://github.com/felipebagarelli/gymmanager)
 
-Projeto Full Stack para gerenciamento de academia, desenvolvido com Java, Spring Boot, PostgreSQL, React e TypeScript.
+Aplicação Full Stack para gerenciamento de academia, com API REST em Java e Spring Boot e interface em React e TypeScript.
 
-O projeto está sendo desenvolvido como projeto de estudo e portfólio, buscando simular uma aplicação real para gerenciamento de membros, exercícios e treinos.
+O sistema permite gerenciar alunos, exercícios e treinos, incluindo a associação de exercícios a um treino com definição de séries e repetições. É o meu principal projeto de estudo e vem sendo desenvolvido de forma incremental.
 
-Atualmente o CRUD de membros já está funcionando no backend e no frontend, com integração entre React e a API REST desenvolvida em Spring Boot.
+`Java` `Spring Boot` `Spring Data JPA` `PostgreSQL` `React` `TypeScript`
 
-O projeto também está sendo utilizado para colocar em prática meus primeiros conhecimentos em JavaScript, TypeScript e React, enquanto continuo aprofundando meus conhecimentos em Backend Java.
+### [FIPE API](https://github.com/felipebagarelli/fipe-api-java)
 
-[Ver repositório](https://github.com/felipebagarelli/gymmanager)
+API REST em Java e Spring Boot para consulta de marcas, modelos, anos e valores de veículos da Tabela FIPE.
 
-### FIPE API
+Projeto onde apliquei consumo de API externa com `HttpClient`, desserialização de JSON com Jackson, separação entre Controller e Service, DTOs com `record` e criação de endpoints REST.
 
-API REST desenvolvida em Java e Spring Boot para consulta de marcas, modelos, anos e valores de veículos utilizando dados da Tabela FIPE.
+`Java` `Spring Boot` `Spring Web` `Jackson` `Maven`
 
-Neste projeto apliquei conceitos como criação de endpoints REST, separação entre Controller e Service, DTOs, injeção de dependências, consumo de API externa com HttpClient e desserialização de JSON.
+### [Java — Primeiros Passos](https://github.com/felipebagarelli/java-estudos-alura)
 
-[Ver repositório](https://github.com/felipebagarelli/fipe-api-java)
+Exercícios do meu primeiro mês de estudos, mantidos como foram desenvolvidos originalmente para registrar a evolução desde os fundamentos da linguagem até as aplicações mais completas.
 
-### Java - Primeiros Passos
-
-Repositório que registra meus primeiros exercícios com programação e Java, desenvolvidos durante meu primeiro mês de estudos.
-
-Mantive os exercícios como foram desenvolvidos originalmente para registrar minha evolução desde os primeiros fundamentos da linguagem até o desenvolvimento de aplicações mais completas.
-
-[Ver repositório](https://github.com/felipebagarelli/java-estudos-alura)
+---
 
 ## Atualmente
 
-Estou aprofundando meus conhecimentos em Java e Spring Boot e, paralelamente, iniciando meus estudos em desenvolvimento frontend com JavaScript, TypeScript e React.
+Estou aprofundando Java e Spring Boot enquanto desenvolvo o Gym Manager, praticando integração entre frontend e backend, modelagem de banco de dados e construção de APIs REST.
 
-O Gym Manager é atualmente meu principal projeto de estudo. Nele estou praticando a integração entre frontend e backend, desenvolvimento de APIs REST, banco de dados e construção de uma aplicação Full Stack.
+As próximas etapas do projeto envolvem validação de dados, tratamento global de exceções, testes automatizados, autenticação e deploy da aplicação.
 
-Também estou estudando conceitos que pretendo aplicar nas próximas etapas do projeto, como testes automatizados, tratamento global de exceções, segurança, autenticação e deploy.
+Busco minha primeira oportunidade como desenvolvedor, em **Backend Java** ou **Full Stack**, onde eu possa aprender com profissionais mais experientes, trabalhar em problemas reais e contribuir com a equipe enquanto continuo evoluindo.
 
-Busco minha primeira oportunidade na área de desenvolvimento, principalmente em Backend Java ou em uma posição de desenvolvimento Full Stack, onde possa aprender com profissionais mais experientes, trabalhar na resolução de problemas reais e contribuir com a equipe enquanto continuo evoluindo como desenvolvedor.
+---
+
+## Contato
+
+[LinkedIn](https://www.linkedin.com/in/felipebagarelli) · fbagarelli@gmail.com
