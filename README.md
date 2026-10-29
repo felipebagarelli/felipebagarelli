@@ -1,61 +1,47 @@
-# Felipe Bagarelli
-
-Estudante de Análise e Desenvolvimento de Sistemas na FATEC São José do Rio Preto, com foco em desenvolvimento **Backend Java** e evolução para **Full Stack**.
-
-
-Comecei a estudar programação em janeiro de 2026, inicialmente de forma autodidata, e desde então venho construindo minha base em Java, Spring Boot e desenvolvimento de APIs REST através de cursos, documentação e projetos práticos. Em julho de 2026 iniciei a graduação em Análise e Desenvolvimento de Sistemas na FATEC.
-
-Java foi minha primeira linguagem de programação. Desde o início dos estudos procuro entender os fundamentos e o funcionamento dos conceitos que utilizo, em vez de apenas reproduzir código.
-
+Felipe Bagarelli
+Desenvolvedor em formação, com foco em backend Java e caminhando para full stack.
+Estudante de Análise e Desenvolvimento de Sistemas na FATEC São José do Rio Preto.
 ---
-
-## Tecnologias
-
-**Backend**
-Java · Spring Boot · Spring Web · Spring Data JPA · Hibernate · APIs REST · PostgreSQL · Maven
-
-**Frontend**
-React · TypeScript · JavaScript · Vite · HTML · CSS
-
-**Fundamentos e ferramentas**
-Programação Orientada a Objetos · Collections · Streams e Lambdas · Generics · Tratamento de exceções · Arquitetura em camadas · Injeção de dependências · Git e GitHub
-
+Sobre
+Comecei a estudar programação em novembro de 2025 e escrevi meus primeiros projetos em janeiro de 2026.
+Entrei na FATEC em julho de 2026 e, desde setembro, trabalho com desenvolvimento de software em um escritório
+de advocacia, construindo as ferramentas internas que a equipe usa no dia a dia.
+Java foi minha primeira linguagem e continua sendo onde me aprofundo. Prefiro entender o que está por baixo
+a copiar código pronto — e por isso escrevo testes, leio erro inteiro antes de pedir ajuda e gosto de
+descobrir por que algo quebrou, não só fazer parar de quebrar.
 ---
-
-## Projetos
-
-### [Gym Manager](https://github.com/felipebagarelli/gymmanager)
-
-Aplicação Full Stack para gerenciamento de academia, com API REST em Java e Spring Boot e interface em React e TypeScript.
-
-O sistema permite gerenciar alunos, exercícios e treinos, incluindo a associação de exercícios a um treino com definição de séries e repetições. É o meu principal projeto de estudo e vem sendo desenvolvido de forma incremental.
-
-`Java` `Spring Boot` `Spring Data JPA` `PostgreSQL` `React` `TypeScript`
-
-### [FIPE API](https://github.com/felipebagarelli/fipe-api-java)
-
-API REST em Java e Spring Boot para consulta de marcas, modelos, anos e valores de veículos da Tabela FIPE.
-
-Projeto onde apliquei consumo de API externa com `HttpClient`, desserialização de JSON com Jackson, separação entre Controller e Service, DTOs com `record` e criação de endpoints REST.
-
-`Java` `Spring Boot` `Spring Web` `Jackson` `Maven`
-
-### [Java — Primeiros Passos](https://github.com/felipebagarelli/java-estudos-alura)
-
-Exercícios do meu primeiro mês de estudos, mantidos como foram desenvolvidos originalmente para registrar a evolução desde os fundamentos da linguagem até as aplicações mais completas.
-
+No que estou trabalhando
+Sistema de pedidos por QR Code — o projeto que mais me ensinou até agora.
+API em Node.js, Express e TypeScript sobre MySQL, com 90 testes automatizados em Jest e Supertest rodando
+em um pipeline de CI no GitHub Actions. Os testes encontraram bugs reais que eu não teria visto sozinho:
+uma transação sem commit nem rollback, parâmetros trocados em um UPDATE, um campo que o repositório ignorava.
+Refiz o projeto do zero depois da primeira versão, para escrever cada camada entendendo o que fazia.
+Gym Manager — aplicação full stack com API REST em Java e Spring Boot, arquitetura em camadas
+(Controller, Service, Repository), Spring Data JPA sobre PostgreSQL e interface em React com TypeScript.
+Próximos passos: validação de entrada, tratamento global de exceções, autenticação e deploy.
 ---
-
-## Atualmente
-
-Estou aprofundando Java e Spring Boot enquanto desenvolvo o Gym Manager, praticando integração entre frontend e backend, modelagem de banco de dados e construção de APIs REST.
-
-As próximas etapas do projeto envolvem validação de dados, tratamento global de exceções, testes automatizados, autenticação e deploy da aplicação.
-
-Busco minha primeira oportunidade como desenvolvedor, em **Backend Java** ou **Full Stack**, onde eu possa aprender com profissionais mais experientes, trabalhar em problemas reais e contribuir com a equipe enquanto continuo evoluindo.
-
+No trabalho
+No estágio, o que entrego são ferramentas internas que outras pessoas passam a depender:
+Automação de avisos — integração em PHP com a API REST de um sistema de gestão jurídica, ligada a um
+fluxo em N8N que resume as atualizações com IA e envia por WhatsApp. Troquei chamadas individuais por
+consultas em lote e as requisições caíram de cerca de 62 para 4–5 por sincronização; agrupando por processo,
+152 atualizações viraram 73 mensagens.
+Dashboard de horas — painel web em PHP, JavaScript e Chart.js sobre MySQL, publicado no servidor da
+empresa, que substituiu o acompanhamento manual e hoje é usado pela equipe e pela gestão.
 ---
-
-## Contato
-
-[LinkedIn](https://www.linkedin.com/in/felipebagarelli) · fbagarelli@gmail.com
+Tecnologias
+Backend — Java, Spring Boot, Spring Data JPA, Hibernate, Node.js, Express, TypeScript, PHP, APIs REST
+Frontend — React, TypeScript, JavaScript, Vite, HTML, CSS
+Dados — MySQL, MariaDB, PostgreSQL, SQL, modelagem
+Qualidade e ferramentas — Jest, Supertest, GitHub Actions, Git, Maven, N8N, Chart.js
+---
+Projetos
+Projeto	O que é	Stack
+SitePedidosReuniao	Pedidos de copa por QR Code, com API testada e CI	Node.js · TypeScript · Express · MySQL · React
+gymmanager	Gestão de alunos, exercícios e treinos	Java · Spring Boot · PostgreSQL · React
+fipe-api-java	Consulta à Tabela FIPE a partir de API externa	Java · Spring Boot
+java-estudos-alura	Exercícios do meu primeiro mês de Java	Java
+---
+Contato
+Busco minha primeira oportunidade como desenvolvedor, em backend Java ou full stack, presencial ou remoto.
+LinkedIn · fbagarelli@gmail.com
